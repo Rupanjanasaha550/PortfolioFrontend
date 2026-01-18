@@ -80,7 +80,7 @@ function ContactForm() {
     };
 
     try {
-      const res = await fetch("http://localhost:5000/api/contact", {
+      const res = await fetch("https://portfoliobackend-ub7l.onrender.com/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData)
@@ -245,8 +245,8 @@ export default function App() {
             <p>2023</p>
           </div>
           <div className="education-card">
-            <h3>B.Tech</h3>
-            <p>UEM Jaipur</p>
+            <h3>BCA</h3>
+            <p>IEM Saltlake</p>
             <p>Currently Pursuing</p>
           </div>
         </div>
@@ -310,34 +310,20 @@ export default function App() {
               A digital initiative showcasing India’s cultural heritage through
               a modern web platform.
             </p>
-            <a href="https://traditionalfrontend.vercel.app">Check Out</a>
+            <a href="https://rupanjanasaha550.github.io">Check Out</a>
           </div>
         </div>
       </section>
 
       {/* ================= ACHIEVEMENTS ================= */}
-      <section id="achievements">
-        <h2>Achievements 🏅</h2>
-        <div className="achievement-list">
-          <div className="achievement-card">
-            <h3>📄 IEEE Research Paper</h3>
-            <p>
-              Published a research paper on an FPGA-based vehicle accident
-              reporting system, officially indexed in IEEE Xplore.
-            </p>
-            <a href="https://ieeexplore.ieee.org/document/11101305" target="_blank">
-              View Publication
-            </a>
-          </div>
-        </div>
-      </section>
+    
 
       {/* ================= EXTRA-CURRICULAR ================= */}
       <section id="extra-curricular">
         <h2>Extra-Curricular Activities 🌟</h2>
         <div className="achievement-list">
           <div className="achievement-card">
-            <h3>🚀 Hackathon Organizer (4 Events)</h3>
+            <h3>🚀 Hackathon Organizer </h3>
             <p>
               Led a 20+ member team to organize hackathons with participation of
               3000+ students.
@@ -352,13 +338,6 @@ export default function App() {
             </p>
           </div>
 
-          <div className="achievement-card">
-            <h3>🏠 Mess & Hostel Secretary</h3>
-            <p>
-              Managed operations, budgeting, and student welfare for 500+
-              residents.
-            </p>
-          </div>
 
           <div className="achievement-card">
             <h3>💡 Coding Club Coordinator</h3>
@@ -375,18 +354,18 @@ export default function App() {
         <h2>Contact Me</h2>
         <ContactForm />
         <p className="contact-email">
-          Email: <a href="mailto:aj5249308@gmail.com">aj5249308@gmail.com</a>
+          Email: <a href="mailto:rupanjanasaha550@gmail.com">rupanjanasaha550@gmail.com</a>
         </p>
       </section>
 
       {/* ================= FOOTER ================= */}
       <footer>
         <div className="socials">
-          <a href="https://github.com/ismartashish" target="_blank"><FaGithub /></a>
-          <a href="https://linkedin.com" target="_blank"><FaLinkedin /></a>
-          <a href="https://instagram.com/ismartashish2.0" target="_blank"><FaInstagram /></a>
+          <a href="https://github.com/Rupanjanasaha550" target="_blank"><FaGithub /></a>
+          <a href="https://www.linkedin.com/in/rupanjana-saha-591514306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><FaLinkedin /></a>
+          <a href="https://www.instagram.com/_x_socialbutterfly_x_?igsh=MXVrdXdpNm5sa2Y1cg==" target="_blank"><FaInstagram /></a>
         </div>
-        <p>© 2025 Ashish Kumar Jha | MERN Developer</p>
+        <p>© 2025 Rupanjana Saha | Frontend Developer</p>
       </footer>
     </>
   );
